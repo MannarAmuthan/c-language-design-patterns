@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "publisher.h"
-#include "subcriber.h"
+#include "subscriber.h"
 
 int main(){
     Publisher *appOne,*appTwo;
@@ -15,7 +15,6 @@ int main(){
     addSubscriber(appOne,userOne);
     addSubscriber(appTwo,userOne);
     addSubscriber(appTwo,userTwo);
-    
 
     releaseUpdate(appOne,1);
     releaseUpdate(appTwo,2);

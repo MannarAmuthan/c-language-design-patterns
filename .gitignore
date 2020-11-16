@@ -1,2 +1,3 @@
 src/main
-src/**/main
+src/observer/main
+main
