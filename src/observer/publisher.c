@@ -5,7 +5,7 @@ void addSubscriber(Publisher *publisher,Subscriber *subscriber){
       publisher->subscribers=(Subscriber*) malloc(sizeof(Subscriber));
    }
    else{
-      publisher->subscribers=(Subscriber*)realloc(publisher->subscribers,(next_index*sizeof(Subscriber))+1);
+      publisher->subscribers=(Subscriber*) realloc(publisher->subscribers,(next_index*sizeof(Subscriber))+1);
    }
    publisher->subscribers[next_index]=*subscriber;
    publisher->current_subsrcribers+=1;    
