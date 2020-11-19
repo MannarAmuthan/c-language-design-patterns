@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "publisher.h"
-#include "subscriber.h"
+#include "src/publisher.h"
+#include "src/subscriber.h"
 
 int main(){
     Publisher *appOne,*appTwo;

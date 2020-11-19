@@ -1,9 +1,6 @@
-#include "../../src/observer/publisher.h" 
-#include "../../src/observer/subscriber.h"
+#include "../src/subscriber.h"
+#include "../src/publisher.h" 
 #include <stdio.h>
-
-#include "../../src/observer/publisher.c"
-#include "../../src/observer/subscriber.c"
 
 int shouldAddSubsriberToThePublisher();
 int shouldGetUpdatedWhenNewReleasedFromPublisher();
@@ -25,6 +22,10 @@ int main(){
     if(isAllPassed!=1){
         exit(-1);
     }
+    else{
+         printf("All tests are passed : In Observer Pattern \n");
+    }
+
 }
 
 void mock_update(Subscriber* subscriber,int version){
