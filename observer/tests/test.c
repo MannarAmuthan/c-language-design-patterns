@@ -1,6 +1,7 @@
 #include "../src/subscriber.h"
 #include "../src/publisher.h" 
 #include <stdio.h>
+#include <stdlib.h>
 
 int shouldAddSubsriberToThePublisher();
 int shouldGetUpdatedWhenNewReleasedFromPublisher();

@@ -10,7 +10,6 @@ typedef struct _subscriber{
 }Subscriber;
 
 void update(Subscriber* subscriber,int version);
-
 Subscriber* getSubscriber(char* name);
 
 #endif
