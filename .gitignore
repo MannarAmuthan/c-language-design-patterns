@@ -2,3 +2,5 @@
 **/demo
 **/*.a
 **/*.o
+personal
+Dockerfile
