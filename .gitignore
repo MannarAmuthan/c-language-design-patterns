@@ -2,6 +2,10 @@
 **/demo
 **/*.a
 **/*.o
+**/main
 personal
 Dockerfile
 personal
+TemplateMakefile
+boot.sh
+TemplateTest.c
